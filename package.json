@@ -1,0 +1,19 @@
+{
+  "name": "udacity-capstone",
+  "version": "1.0.0",
+  "description": "Capstone project: travel app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akpinkerton/udacity-capstone.git"
+  },
+  "author": "Anna Cagle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akpinkerton/udacity-capstone/issues"
+  },
+  "homepage": "https://github.com/akpinkerton/udacity-capstone#readme"
+}
