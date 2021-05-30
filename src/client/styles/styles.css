@@ -1,0 +1,94 @@
+/* // All interactive elements have hover states */
+body{
+  background: #051e3e
+}
+
+html {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+  "head"
+  "body"
+  "foot"
+  ;
+}
+
+.title{
+  grid-area: head;
+  height: 10vh;
+  padding: 30px 0 0 30px;
+  background:  #251e3e;
+  color: white ;
+  font-size: 3em;
+}
+
+footer{
+  grid-area: foot;
+  height: 7vh;
+  padding: 30px 0 0 30px;
+  background: #251e3e;
+}
+
+.trip-details{
+  grid-area: body;
+  display: flex;
+  align-items: center;
+  color: #fec8c1 ;
+}
+
+.location-image {
+  order: 1
+}
+
+.trip-data {
+  order: 2
+  text-align: center;
+}
+
+.trip-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.trip-dates {
+  font-size: 1em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.weather-data {
+  font-size: .75em;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  order 3;
+  padding: 2em 0 2em 5em ;
+  margin: 10px 30px 30px 30px;
+  border: 1px solid #fec8c1 ;
+}
+
+.submit-button {
+  background-color: rgb(25, 131, 252);
+  color: white;
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+  width: 16em;
+}
+
+.submit-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+
+.user-entry {
+  width: 15em;
+  height: 2em;
+  margin: 5px 0 30px 0;
+}
+
+.photo-adjust{
+  width: 100%;
+  max-width: 700px;
+  min-width: 300px;
+}

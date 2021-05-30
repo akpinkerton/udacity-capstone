@@ -1,0 +1,40 @@
+// should contain atleast 3 scripts: express server, build, test
+// have atleast 1 test for express server and app.js
+// must have service workers installed
+
+// html usable on desktop, tablet, phone
+// All interactive elements have hover states
+
+// Server should be a near duplication of project 3
+  with the exception of additional added member: value pairs.
+
+// At least one function should be imported in index.js.
+// At least one event listener should be imported.
+// (styles referenced in html/css)
+
+// There should be URLS and API Keys for at least 3 APIs, including Geonames, Weatherbit, and Pixabay. You can feel free to use more than 3 APIs.
+// There should be a primary object with placeholder member value pairs.
+// There should be a primary function that is exported to index.js.
+
+// At least one option from the Extend your Project/Ways to Stand Out sections have been added.
+//    Please add a Note to your reviewer which one you chose to implement,
+      or add into your README.
+
+      A README file is included detailing the app and all dependencies.
+
+Other requirements:
+The Readme file should have non-default text in it that is specific to this project.
+It doesn’t have to be thorough, but should have some basic info.
+Bonus points if correct markdown is used.
+
+
+At least one of these is required!
+
+Add end date and display length of trip.
+Pull in an image for the country from Pixabay API when the entered location brings up no results (good for obscure localities).
+Allow user to add multiple destinations on the same trip.
+Pull in weather for additional locations.
+Use Local Storage to save the data so that when they close, then revisit the page, their information is still there.
+Instead of just pulling a single day forecast, pull the forecast for multiple days.
+Incorporate icons into forecast.
+Allow user to Print their trip and/or export to PDF.

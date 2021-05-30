@@ -15,5 +15,23 @@
   "bugs": {
     "url": "https://github.com/akpinkerton/udacity-capstone/issues"
   },
-  "homepage": "https://github.com/akpinkerton/udacity-capstone#readme"
+  "homepage": "https://github.com/akpinkerton/udacity-capstone#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^6.0.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.0",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.2"
+  },
+  "dependencies": {
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2"
+  }
 }

@@ -1,12 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="/src/client/styles/styles.css">
+
+
+
+    <title>Home</title>
+
+  </head>
+
+  <header>
+    <!-- Header/Title of Page -->
+    <div class="title">Travel Planner</div>
+  </header>
+
+  <body>
+    <!-- Main/Body/Content Area -->
+    <div class="trip-details">
+
+      <!-- Imported Photo -->
+      <div class= "location-image"><img class="photo-adjust" src="https://via.placeholder.com/700x400/311b92/ffffff/?text=Imported+image"></div>
+
+      <!-- Trip data displayed -->
+      <div class="trip-data">
+
+        <!-- ${Location} trip for ${duration} days is only ${countdown} days away! -->
+        <div class= "trip-title">
+          Your Trip to Nowhere, Montana
+        </div>
+
+        <!-- The weather prediction for your trip is currently: ${temp} degrees and ${conditions}  -->
+        <div class= "trip-dates">
+          Mth DD, YYYY - Mth DD, YYYY
+        </div>
+
+        <div class= "weather-data">
+          The weather prediction for your trip is currently: ## degrees and sunny.
+        </div>
+      </div>
+
+      <!-- Trip input boxes -->
+      <div class="input-container">
+        <form action="/comment_page.cfm" method="post">
+          <!-- location -->
+          Destination:<br/>
+          <input class="user-entry" name="destination" type="text"><br/>
+
+          <!-- Start of trip -->
+          Start of trip:<br/>
+          <input class="user-entry" name="destination" type="text"><br/>
+
+          <!-- En of trip -->
+          Return home:<br/>
+          <input class="user-entry" name="destination" type="text"><br/>
+
+          <button class="submit-button" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    &copy Anna Cagle, 2021, Udacity Capstone
+  </footer>
 </html>
